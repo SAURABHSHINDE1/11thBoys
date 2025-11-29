@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+     display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #e2e2e2;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+      gap: 30px;
+}
+
+.navbar a{
+    color: #3A86FF;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+a:hover{
+    color: rgb(131, 3, 131);
+} 
+
+
+.box{
+    height: 90%;
+    width: 90%;
+    background-color: orange;
+    display: flex;
+    gap: 20px;
+    align-items:center;
+    justify-content:center;
+}
+
+.card{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
