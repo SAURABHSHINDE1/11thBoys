@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+     display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.text{
+    height: 60px;
+    width: 100%;
+    background-color: #d8d5d5;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+      gap: 30px;
+}
+
+.text a{
+    color: #1852af;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+a:hover{
+    color: rgb(202, 129, 202);
+} 
+
+
