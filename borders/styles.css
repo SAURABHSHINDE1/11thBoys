@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    /* border: 10px solid rgb(255, 0, 0); */
+/* 
+    border-top: 5px solid green;
+    border-right: 5px dashed aqua;
+    border-bottom:5px double orange;
+    border-left: 5px dotted brown; */
+
+    border:  10px solid orange;
+    border-radius:37% 63% 70% 30% / 30% 51% 49% 70% ;
+}

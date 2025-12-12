@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.navbar{
+    height:85px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.747);
+    display: flex;
+}
+
+.logo{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img{
+    height: 40%;
+}
+
+.menus{
+    height: 100%;
+    width:45%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.menus a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+a i{
+    font-size: 16px;
+}
+
+.login{
+    height: 100%;
+    width:35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.login p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+.login button{
+    height: 35px;
+    width: 110px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f81188;
+    color: #ffff;
+    font-weight: 700;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-image: url('./assets/img.jpg');
+    background-position:center;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container h1{
+    color: #fff;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    position: absolute;
+    top: 60px;
+    right:320px;
+}
+

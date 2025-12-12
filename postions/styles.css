@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+.box{
+    height: 90%;
+    width: 90%;
+    background-color:orange;
+    display: flex;
+    align-items:center;
+    justify-content: center; 
+}
+
+.innerbox{
+    height: 70%;
+    width: 80%;
+    background-color: rgb(142, 142, 170);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+       
+}
+
+.sub-inner{
+    height: 70%;
+    width: 70%;
+    background-color: rgb(30, 30, 44);
+       display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.move{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    position: absolute;
+    top: 20px;
+    left: 300px;
+}
+
+
+#text{
+    height: 70px;
+    width: 400px;
+    padding-left: 60px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(160, 160, 160);
+    border-radius: 20px;
+}
+
+.ri-seo-line{
+    position: absolute;
+    left:500px;
+    font-size: 28px;
+}
+
+/* .card{
+    height: 300px;
+    width: 300px;
+    background-color: orange;
+}
+
+.card1{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(141, 135, 125);
+    position: absolute;
+    top:200px;
+    right: 400px;
+} */
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(189, 189, 189);
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-family: cursive;
+    padding: 26px 0px;
+}
+ 
+
+.aboutHover{
+    height: 300px;
+    width: 100%;
+    background-color: aqua;
+    position: absolute;
+    top: 80px;
+    display: none;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(36, 35, 35);
+}
+
+#about:hover + .aboutHover{
+    display: block;
+}
+
+.aboutHover:hover{
+    display: block;
+}
+
+
+.servicehover{
+    height: 400px;
+    width: 100%;
+    background-color: orange;
+    position: absolute;
+    top: 80px;
+    display: none;
+}
+ 
+#service:hover + .servicehover{
+    display:block;
+}
+
+.servicehover:hover{
+    display: block;
+}
+
