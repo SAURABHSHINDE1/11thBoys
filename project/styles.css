@@ -9,7 +9,7 @@ html,body{
     height: 100%;
     width: 100%;
 }
-
+/* 
 .navbar{
     height:85px;
     width: 100%;
@@ -99,4 +99,115 @@ a i{
     top: 60px;
     right:320px;
 }
+ */
+
+ .container{
+    height: 100%;
+    width: 100%;
+    background-image: url('./assets/img.jpg');
+    background-position:center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+ }
+
+
+ 
+ .container1{
+    height: 100%;
+    width: 100%;
+    background-image: url('./assets/img1.jpg');
+    background-position:center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+ }
+
+
+
+ 
+ .container2{
+    height: 100%;
+    width: 100%;
+    background-image: url('./assets/img2.jpg');
+    background-position:center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+ }
+
+
+
+ 
+ .container3{
+    height: 100%;
+    width: 100%;
+    background-image: url('./assets/img3.jpg');
+    background-position:center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+ }
+
+
+
+ 
+ .container4{
+    height: 100%;
+    width: 100%;
+    background-image: url('./assets/img4.jpg');
+    background-position:center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+ }
+
+
+
+ 
+ .container5{
+    height: 100%;
+    width: 100%;
+    background-image: url('./assets/img5.jpg');
+    background-position:center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+ }
+
+
+
+ 
+ .container6{
+    height: 100%;
+    width: 100%;
+    background-image: url('./assets/img6.jpg');
+    background-position:center;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+ }
+
+
 

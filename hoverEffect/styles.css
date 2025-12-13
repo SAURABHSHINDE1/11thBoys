@@ -7,38 +7,45 @@
 html,body{
     height: 100%;
     width: 100%;
-        display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 
+
 .box{
-    height:400px;
+    height: 400px;
     width: 400px;
+    background-color: orange;
+    transition: all 0.2s linear;
     display: flex;
-    justify-content: center;
     align-items: center;
-    background-color: #8f8f8f;
+    justify-content:center;
     flex-direction: column;
     gap: 30px;
 }
 
-/* .box:hover #st{
+/* Child Selector */
+
+/* .box:hover #text{
+    color: aqua;
+} */
+
+
+/* Adjecent selector */
+
+/* #text:hover + h1{
+
+    color: red;
+
+} */
+/* 
+
+#text1:hover ~ #text4{
     color: red;
 }
 
-
-.box:hover #test{
-    color: orange;
-} */
-/* 
-#st:hover + #test{
-    color: green;
-} */
-/* 
-
-#st:hover ~ p{
-    color: green;
-    font-size: 20px;
+#text1:hover ~ #text3{
+    color: red;
 } */
