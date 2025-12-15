@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    height: 400px;
+    width: 100%;
+    overflow: scroll;
+}
+
+.main::-webkit-scrollbar{
+    display:none;
+}
+
+.scroller{
+    width: fit-content;
+    display: flex;
+    gap: 20px;
+    animation: scrollAnim 10s linear infinite;
+}
+
+.card{
+    height:400px;
+    width: 300px;
+    background-color: aqua;
+}
+
+
+@keyframes scrollAnim {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-50%);
+    }
+}
