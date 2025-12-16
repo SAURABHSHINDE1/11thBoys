@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    height:fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    background-color: #f0f0f0;
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: teal;
+    font-size: 20px;
+}
+
+.box:nth-child(odd){
+    background-color: orange;
+    border-radius: 30px;
+    background-image: url('img.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.box:nth-child(even){
+    background-color: red;
+    border-radius: 30px;
+}
