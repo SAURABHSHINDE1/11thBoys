@@ -15,7 +15,7 @@ html,body{
 }
 
 .card{
-    height:100px;
+    height:200px;
     width: 220px;
     display: flex;
     align-items:flex-start;
@@ -25,4 +25,10 @@ html,body{
     gap: 10px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card img{
+    height: 100px;
+    width: 150px;
+    object-fit: cover;
 }
